@@ -1,0 +1,231 @@
+body {
+    background: #eee;
+}
+
+#side_nav {
+    background: #000;
+}
+
+.context {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.logo {
+    color: #41CB83;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 22px;
+}
+
+.navbar {
+    height: 112px;
+    padding: 0 50px;
+}
+
+.search-bar {
+
+    width: 675px;
+    height: 45px;
+    border: 0;
+    background: #F7F7F7;
+    border-radius: 10px;
+    color: #9DA8C3;
+    padding-left: 20px;
+
+}
+
+.search-icon {
+    color: #9DA8C3;
+    font-size: 30px;
+    position: relative;
+    right: 61px;
+    top: 0px;
+    background-color: transparent;
+    border: 0;
+}
+
+.uyeol {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    background: #41CB83;
+    width: 173px;
+    height: 45px;
+    border: 0;
+}
+
+.sosyalmedyaic li a {
+    color: #41CB83;
+
+}
+
+.sosyalmedyaic {
+    margin: 0 10px;
+}
+
+
+.sosyalmedyaic li {
+    color: #41CB83;
+    padding: 0 10px;
+}
+
+.cankoyma {
+    position: absolute;
+    right: 100px;
+    top: 46px;
+}
+
+.sag-menu {
+    text-align: right;
+
+}
+
+.menu-bar {
+    color: #9DA8C3;
+    border: 0;
+    background-color: transparent;
+    font-size: 25px;
+}
+
+.nav-bell {
+    font-family: 'Izmir';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+    color: #9DA8C3;
+}
+
+
+.sidebar {
+    height: 100vh;
+    background: #1E293B;
+    padding: 0 50px;
+}
+
+.sidebar::before {
+    border: 0;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    background-image: url(/assets/images/down-arrow.png);
+    width: 23px;
+    height: 24px;
+    background-repeat: no-repeat;
+
+}
+
+.sidebar-sticky ul li a {
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #E2E8F0;
+}
+
+.nav-bell[data-count]:after {
+    position: absolute;
+    right: -3px;
+    top: 16%;
+    content: attr(data-count);
+    font-size: 30%;
+    padding: 0.6em;
+    border-radius: 100%;
+    line-height: .75em;
+    color: white;
+    background: rgba(255, 0, 0, .85);
+    text-align: center;
+    min-width: 2em;
+    font-weight: bold;
+}
+
+.sidebar-heading span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #64748B;
+}
+
+.sidebar-heading span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #64748B;
+}
+
+.nav-item.active {
+    background: #0F172A;
+    border-radius: 2px;
+}
+
+.nav-item.active a i {
+    background: #41CB83;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+}
+
+.nav-item .nav-link i {
+    padding: 5px 5px;
+    margin-right: 10px;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: white;
+    background: #0F172A;
+    border-radius: 2px;
+}
+
+.nav-link:hover i {
+    background: #41CB83;
+    border-radius: 100%;
+}
+
+.dropdown-toggle::after {
+    border: 0;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    background-image: url(/assets/images/down-arrow.png);
+    width: 23px;
+    height: 24px;
+    background-repeat: no-repeat;
+
+}
+
+.izmir-logo-sidebar {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.badge {
+    position: absolute;
+    right: 10px;
+    background: #41CB83;
+    padding: 2px 8px;
+    top: 38%;
+}
+
+.navbar{
+    background: white   ;
+}
+
+main{
+    background: white   ;
+}
+
+.close-button{
+    background-image: url(/assets/images/menu-close.png);
+    width: 50px;
+    height: 50px;
+}
